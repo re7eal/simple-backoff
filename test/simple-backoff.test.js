@@ -1,6 +1,6 @@
 'use strict';
 
-var backoff = require('./simple-backoff.js');
+var backoff = require('../lib/simple-backoff.js');
 require('should');
 
 describe('Linear backoff', function () {
